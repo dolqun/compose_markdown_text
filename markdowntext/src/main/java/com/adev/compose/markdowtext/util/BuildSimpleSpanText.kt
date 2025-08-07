@@ -1,4 +1,4 @@
-package com.adev.compose.markdowtext.markdown.util
+package com.adev.compose.markdowtext.util
 
 import com.adev.compose.markdowtext.markdown.TextSpan
 

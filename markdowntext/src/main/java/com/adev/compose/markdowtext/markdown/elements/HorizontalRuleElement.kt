@@ -14,7 +14,7 @@ fun HorizontalRuleElement() {
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 8.dp),
-        thickness = 1.dp,
+        thickness = 0.3.dp,
         color = Color.Gray
     )
 }

@@ -4,11 +4,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import com.adev.compose.markdowtext.markdown.MarkdownElement
+import com.adev.compose.markdowtext.util.RtlUtil
 
 @Composable
 fun HeaderElement(header: MarkdownElement.Header) {
@@ -33,6 +35,7 @@ fun HeaderElement(header: MarkdownElement.Header) {
         fontWeight = fontWeight,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 4.dp)
+            .padding(vertical = 4.dp),
+        textAlign = RtlUtil.getTextAlign(header.text)
     )
 }

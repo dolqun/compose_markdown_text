@@ -48,11 +48,11 @@ data class HomeState(
   这里是一些 `内联代码`。
     
   ```java
-    public class HelloWorld {
-        public static void main(String[] args) {
-            System.out.println("hello");
-        }
-    }
+public class HelloWorld {
+     public static void main(String[] args) {
+          System.out.println("hello");
+     }
+  }
   ```
     
 ## 引用
@@ -117,11 +117,9 @@ data class HomeState(
 ## كود
   بۇ يەردە بىر قىسىم `ئىچكى ئالاقە كود`
     
-  ```java
-    public class HelloWorld {
-        public static void main(String[] args) {
-            System.out.println("hello");
-        }
+  ```kotlin
+    fun main() {
+        println("hello")
     }
   ```
 
@@ -141,4 +139,6 @@ data class HomeState(
 ---
 """
 )
+
+
 

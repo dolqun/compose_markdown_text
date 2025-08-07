@@ -14,6 +14,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import com.adev.compose.markdown.sample.ui.theme.AppTheme
 import com.adev.compose.markdowtext.markdown.MarkdownText
 import org.koin.compose.viewmodel.koinViewModel
@@ -39,11 +40,12 @@ internal fun HomeScreen(
     ) { innerPadding ->
         MarkdownText(
             markdown = homeState.markdownText,
+            isShowLineNumbers = true,
             modifier = Modifier
                 .fillMaxSize()
                 .verticalScroll(state = scrollState)
-
                 .padding(innerPadding)
+                .padding(8.dp)
         )
     }
 
