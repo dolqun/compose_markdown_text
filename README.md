@@ -9,7 +9,7 @@ A lightweight Jetpack Compose plugin for rendering Markdown text in Android appl
 ## 🎬 Demo
 
 <!-- TODO: Add demo GIF -->
-![Markdown Rendering Demo](demo.gif)
+![Markdown Rendering Demo](docs/demo.mp4)
 
 ## 📦 Installation
 
