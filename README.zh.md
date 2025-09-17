@@ -8,8 +8,16 @@
 
 ## 🎬 效果演示
 
-<!-- TODO: 添加演示 GIF -->
+https://github.com/user-attachments/assets/demo-video
+
+<details>
+<summary>查看演示视频</summary>
+
 ![Markdown渲染演示](docs/demo.mp4)
+
+*点击播放演示视频*
+
+</details>
 
 ## 📦 安装
 
